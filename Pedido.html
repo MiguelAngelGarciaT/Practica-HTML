@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Practica de la Pastelería</title>
+</head>
+<body>
+    
+    
+    <h2>Para tomar su pedido ingrese los siguientes datos</h2>
+    
+    <form action="/pedido.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="Teléfono">Teléfono de Contacto:</label><br>
+        <input type="text" id="Teléfono" name="Teléfono" maxlength="10" ><br><br>
+        <label for="Correo">Correo Electrónico:</label><br>
+        <input type="text" id="Correo" name="Correo"><br><br>
+       
+    
+
+    <h2>Diganos que pastel prefiere</h2>
+   
+         <input type="radio" id="Estrella" name="pastel" value="Estrella">
+        <label for="Estrellas">Estrella (Pastel de tres leches sabor Vainilla)</label><br>
+        <input type="radio" id="Luna" name="pastel" value="Luna">
+        <label for="Luna">Luna (Pastel de tres leches sabor Chocolate)</label><br>
+        <input type="radio" id="Estelar" name="pastel" value="Estelar">
+        <label for="Estelar">Estelar (Pastel de Vainilla con relleno de fresa)</label><br>
+        <input type="radio" id="Lluvia" name="pastel" value="Lluvia">
+        <label for="Lluvia">Lluvia de Estrellas (Pastel de Vainilla con Frutos Rojos)</label><br>
+        <input type="radio" id="Galaxia" name="pastel" value="Galaxia">
+        <label for="Galaxia">Galaxia (Pastel de Chocolate con mousse de Vainilla)</label><br><br>
+
+
+    <h2> Lo hacemos a su preferencia</h2>
+
+        <input type="checkbox" id="sabor vainilla" name="sabor vainilla " value="vainilla">
+        <label for="topping1">Pan de Vainilla</label><br>
+        <input type="checkbox" id="sabor chocolate" name="sabor chocolate" value="sabor chocolate">
+        <label for="topping2">Pan de Chocolate</label><br>
+        <input type="checkbox" id="mousse de vainilla" name="mousse de vainilla" value="mousse de vainilla">
+        <label for="topping3">Mousse de Vainilla</label><br>
+        <input type="checkbox" id="mousse de chocolate" name="mousse de chocolate" value="mousse de chocolate">
+        <label for="topping3">Mousse de Chocolate</label><br>
+        <input type="checkbox" id="frutos rojos" name="frutos rojos" value="frutos rojos">
+        <label for="topping3">Frutos Rojos</label><br>
+        <input type="checkbox" id="fresas" name="fresas" value="fresas">
+        <label for="topping3">Fresas</label><br>
+        <input type="checkbox" id="Chispas de chocolate" name="Chispas de chocolate" value="Chispas de chocolate">
+        <label for="topping3">Chispas de chocolate</label><br><br>
+        <br>
+
+        <input type="reset">
+        <input type="submit" value="Enviar">
+
+    </form>
+    <br>
+    <br>
+
+    <footer>
+        <p>Direccion: Av. Pino Número 8 Delegación Azcapotzalco Ciudad de México C.P 02971</p>
+        <p>Teléfono 5540585264</p>
+        <p>Correo electrónico pasteleriasgalaxia@hotmailcom</p>
+        <br>
+        <br>
+
+    </footer>
+
+</body>
+</html>
